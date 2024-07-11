@@ -179,3 +179,73 @@ main h2 {
   align-self: flex-end;
   font-weight: bold;
 }
+
+.call-to-action-cntr {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 50vh;
+}
+
+.call-to-action {
+  display: flex;
+  flex-flow: column wrap;
+  width: 600px;
+}
+
+.call-to-action-box {
+  display: flex;
+  align-items: center;
+
+  background-color: #3882f6;
+  width: 800px;
+  height: 150px;
+  border-radius: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.call-to-action-title {
+  font-size: 30px;
+  color: #e5e7eb;
+  font-weight: bold;
+}
+
+.signup-text {
+  color: #e5e7eb;
+}
+
+.call-to-action-btn {
+  background-color: #3882f6;
+  border: none;
+  border-radius: 5px;
+
+  width: 150px;
+  height: 50px;
+
+  font-weight: bold;
+  font-size: 20px;
+  color: #e5e7eb;
+
+  border: 2px solid #e5e7eb;
+  border-radius: 10px;
+}
+
+.call-to-action-btn:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  background-color: #3881f6ea;
+  box-shadow: 5px 5px 10px #38475e;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: #1f2937;
+  color: #e5e7eb;
+  height: 100px;
+  font-size: 16px;
+}
